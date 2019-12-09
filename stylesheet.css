@@ -1,19 +1,16 @@
 
 .container {
-    margin: auto;
-    display: grid;
+  background-color: white;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    color: white;
-    text-align: center;
-    padding-top: 10%;
-    font-size: 3em;
+    color: black;
+
 }
 
 h2 {
-    color: white;
+    color: black;
     text-align: center;
 }
 body {
@@ -22,13 +19,16 @@ body {
     padding: 0px;
 }
 
+#coffee-cup {
+  margin: auto;
+  width: 50%;
+}
 .cup {
     height: 140px;
     width: 180px;
     border: 6px solid #efb54a;
     position: absolute;
-    top: 40%;
-    left: 40%;
+
     border-radius: 0px 0px 70px 70px;
     background: url(coffee.png);
     box-shadow: 0px 0px 0px 6px white;
