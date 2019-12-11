@@ -3,20 +3,67 @@
   background-color: white;
 }
 
+.jumbotron {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+li a:hover {
+  text-shadow: black;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     color: black;
+    font-size: 4em;
 
 }
 
 h2 {
     color: black;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 body {
     background-color: #efb54a;
     margin: 0px;
     padding: 0px;
+}
+
+#map {
+  display: block;
+  height: 70%;
+  width: 60%;
+  margin: auto;
+}
+
+.jumbotron {
+  background-color: #ffffed;
+}
+
+.fa-facebook:hover {
+  transform: scale(1.5);
+}
+
+.fa-twitter:hover {
+  transform: scale(1.5);
+}
+
+.fa-instagram:hover {
+  transform: scale(1.5);
+}
+
+#info {
+  background-color: #ffffed;
+  padding-top: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 20px;
 }
 
 #coffee-cup {
@@ -28,7 +75,8 @@ body {
     width: 180px;
     border: 6px solid #efb54a;
     position: absolute;
-
+    margin-left: -80px;
+    margin-top: 25px;
     border-radius: 0px 0px 70px 70px;
     background: url(coffee.png);
     box-shadow: 0px 0px 0px 6px white;
@@ -65,5 +113,7 @@ body {
     top: 2px;
     left: 186px;
     border-radius: 0px 25px 80px 0px;
+    margin-left: -80px;
+    margin-top: 25px;
 
 }
